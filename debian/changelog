@@ -1,3 +1,13 @@
+debian-installer (20230607+deb12u8) UNRELEASED; urgency=medium
+
+  * Reinstate some armel netboot targets, as suggested by Martin
+    Michlmayr (Closes: #1068898) and tested by Rick Thomas (thanks!):
+     - openrd-base
+     - openrd-client
+     - openrd-ultimate
+
+ -- Cyril Brulebois <kibi@debian.org>  Sun, 01 Sep 2024 14:36:01 +0200
+
 debian-installer (20230607+deb12u7) bookworm; urgency=medium
 
   * Bump Linux kernel ABI to 6.1.0-25.
