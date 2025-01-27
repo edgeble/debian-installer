@@ -7,3 +7,10 @@
 libgcc1 -
 libgcc-s1 -
 libatomic1 -
+
+
+apt-setup -
+choose-mirror -
+net-retreiver -
+kernel-image-6.1.0-29-arm64-di -
+download-installer -
